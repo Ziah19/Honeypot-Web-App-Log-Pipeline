@@ -67,11 +67,10 @@ sourcetype="honeypot_json" | eval attack_type=case(match(password, "'|--"), "SQL
 
 ## Evidence
 
-*(Screenshots below — replace with your own image files)*
 
 | Brute-force spike (timeline) | Detection query results |
 |---|---|
-| ![timeline](screenshots/timeline.png) | ![detection](screenshots/detection.png) |
+| ![timeline](splunk5.png) | ![detection](Splunk4b.png) |
 
 ## Project Structure
 
